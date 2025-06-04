@@ -183,6 +183,8 @@ The frontend application will be available at `http://localhost:4200`
 
 ## Folder Structure
 
+### Backend Structure
+
 ```
 skyline_backend-main/
 ├── src/
@@ -196,6 +198,29 @@ skyline_backend-main/
 ├── ScanDoc/          # Scanned documents
 ├── index.js          # Main application file
 └── package.json      # Project dependencies
+```
+
+### Frontend Structure
+
+```
+skyline_frontend-main/
+├── src/
+│   ├── app/
+│   │   ├── components/     # Reusable UI components
+│   │   │   ├── plagiarism/    # Plagiarism detection components
+│   │   │   ├── ai-detection/  # AI detection components
+│   │   │   ├── proofreading/  # Proofreading components
+│   │   │   └── assignment/    # Assignment aid components
+│   │   ├── services/      # API and business services
+│   │   ├── models/        # Data models and interfaces
+│   │   ├── guards/        # Route guards
+│   │   └── shared/        # Shared utilities and components
+│   ├── assets/           # Static files (images, fonts, etc.)
+│   ├── environments/     # Environment configurations
+│   └── styles/          # Global styles and themes
+├── angular.json         # Angular configuration
+├── package.json         # Project dependencies
+└── tsconfig.json        # TypeScript configuration
 ```
 
 ## Technologies Used
