@@ -19,31 +19,78 @@ A robust document scanning and analysis server that provides plagiarism detectio
 
 ## Features
 
-- **Document Scanning & Analysis**
-  - PDF parsing and text extraction
-  - Document format conversion
-  - OCR capabilities using Tesseract.js
-  - Plagiarism detection
-- **Authentication & Authorization**
-  - JWT-based authentication
-  - Role-based access control
-- **File Management**
-  - Multi-format file upload support
-  - Google Drive integration
-  - File conversion and processing
-- **Payment Integration**
-  - Stripe payment processing
-  - Order management
-- **AI Integration**
+### 🔍 Plagiarism & AI Detection
 
-  - OpenAI API integration
-  - Natural language processing capabilities
+- **Advanced Plagiarism Detection**
+  - State-of-the-art content matching algorithms
+  - Comprehensive source comparison
+  - Detailed similarity reports with highlighted matches
+  - Support for multiple file formats (PDF, Word, Text)
+- **AI Content Detection**
+  - Cutting-edge AI-generated text identification
+  - Detailed analysis reports with confidence scores
+  - Explanation of AI detection markers
+  - Integration with leading AI detection APIs
 
-- **Additional Features**
-  - Email notifications
-  - Interactive reporting
-  - QR code generation
-  - PDF manipulation and generation
+### ✍️ Proofreading & Editing
+
+- **Professional Proofreading**
+
+  - Grammar and spelling error detection
+  - Style and tone consistency checking
+  - Academic writing standards compliance
+  - Citation format verification (APA, MLA, Chicago)
+
+- **Advanced Editing Tools**
+  - Real-time editing suggestions
+  - Document structure analysis
+  - Language enhancement recommendations
+  - Academic vocabulary improvement
+
+### 📚 Assignment Aid
+
+- **Comprehensive Assignment Support**
+
+  - Structured writing assistance
+  - Research methodology guidance
+  - Citation and reference management
+  - Topic analysis and outline creation
+
+- **Quality Assurance**
+  - Originality verification
+  - Academic standards compliance
+  - Format and structure validation
+  - Deadline management tools
+
+### 🎓 Additional Academic Tools
+
+- **Live Tutoring**
+
+  - Real-time expert assistance
+  - Subject-specific guidance
+  - Interactive learning sessions
+  - Personalized academic support
+
+- **Document Management**
+  - Secure file storage and organization
+  - Version control and history tracking
+  - Multi-format file support
+  - Easy sharing and collaboration
+
+### 🛠️ Technical Features
+
+- **Multi-Format Support**
+
+  - PDF processing and analysis
+  - Microsoft Office document handling
+  - Image-to-text conversion (OCR)
+  - HTML content processing
+
+- **Security & Privacy**
+  - End-to-end encryption
+  - Secure file storage
+  - User data protection
+  - Privacy-focused design
 
 ## Installation
 
@@ -134,15 +181,6 @@ The frontend application will be available at `http://localhost:4200`
 - Frontend Application: http://localhost:4200
 - Backend API: http://localhost:4000
 
-### API Endpoints
-
-- `/api/scan` - Document scanning endpoints
-- `/api/user` - User management
-- `/api/order` - Order processing
-- `/api/payment` - Payment processing
-- `/interactive-report` - Report generation
-- `/api/google-drive` - Google Drive integration
-
 ## Folder Structure
 
 ```
@@ -183,23 +221,3 @@ skyline_backend-main/
 ## License
 
 This project is licensed under the ISC License.
-
-## Support
-
-For any inquiries or bug reports:
-
-- 📝 Open an issue [here](https://github.com/WaqasKhan4842/Staging-Server/issues)
-- 📧 Contact us via email: support@skyline.com
-- 💬 Join our community discussions on [GitHub Discussions](https://github.com/WaqasKhan4842/Staging-Server/discussions)
-
-For urgent matters, please include the following information in your report:
-
-- Detailed description of the issue
-- Steps to reproduce
-- Expected vs actual behavior
-- Screenshots (if applicable)
-- Environment details (OS, browser version, etc.)
-
----
-
-© 2024 Skyline Staging Server. All rights reserved.
