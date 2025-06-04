@@ -1,4 +1,4 @@
-# Staging-Server
+# SkyLine
 
 [![Node.js](https://img.shields.io/badge/Node.js-v18+-green.svg)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-v4.19.2-blue.svg)](https://expressjs.com/)
@@ -47,14 +47,16 @@ A robust document scanning and analysis server that provides plagiarism detectio
 
 ## Installation
 
+### Backend Setup
+
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/WaqasKhan4842/Staging-Server.git
 cd Staging-Server
 ```
 
-2. Install dependencies:
+2. Install backend dependencies:
 
 ```bash
 cd skyline_backend-main
@@ -62,7 +64,7 @@ npm install
 ```
 
 3. Set up environment variables:
-   Create a `.env` file in the root directory with the following variables:
+   Create a `.env` file in the backend directory with the following variables:
 
 ```env
 DB_HOST=your_database_host
@@ -80,17 +82,59 @@ OPENAI_API_KEY=your_openai_api_key
 - Create a database with the name specified in your .env file
 - The tables will be created automatically when you run the server
 
-## Usage
+### Frontend Setup
 
-1. Start the development server:
+1. Navigate to the frontend directory:
 
 ```bash
+cd ../skyline_frontend-main
+```
+
+2. Install frontend dependencies:
+
+```bash
+npm install
+```
+
+3. Set up environment variables (if needed):
+   Create a `environment.ts` file in the `src/environments` directory:
+
+```typescript
+export const environment = {
+  production: false,
+  apiUrl: "http://localhost:4000/api",
+  // Add other environment variables as needed
+};
+```
+
+## Usage
+
+### Starting the Services
+
+1. Start the backend server:
+
+```bash
+cd skyline_backend-main
 npm start
 ```
 
-2. The server will be running at `http://localhost:4000`
+The backend server will run at `http://localhost:4000`
 
-3. API Endpoints:
+2. Start the frontend development server:
+
+```bash
+cd skyline_frontend-main
+ng serve
+```
+
+The frontend application will be available at `http://localhost:4200`
+
+### Accessing the Application
+
+- Frontend Application: http://localhost:4200
+- Backend API: http://localhost:4000
+
+### API Endpoints
 
 - `/api/scan` - Document scanning endpoints
 - `/api/user` - User management
@@ -142,7 +186,19 @@ This project is licensed under the ISC License.
 
 ## Support
 
-For support, please contact the development team or create an issue in the repository.
+For any inquiries or bug reports:
+
+- 📝 Open an issue [here](https://github.com/WaqasKhan4842/Staging-Server/issues)
+- 📧 Contact us via email: support@skyline.com
+- 💬 Join our community discussions on [GitHub Discussions](https://github.com/WaqasKhan4842/Staging-Server/discussions)
+
+For urgent matters, please include the following information in your report:
+
+- Detailed description of the issue
+- Steps to reproduce
+- Expected vs actual behavior
+- Screenshots (if applicable)
+- Environment details (OS, browser version, etc.)
 
 ---
 
