@@ -21,76 +21,32 @@ A robust document scanning and analysis server that provides plagiarism detectio
 
 ### 🔍 Plagiarism & AI Detection
 
-- **Advanced Plagiarism Detection**
-  - State-of-the-art content matching algorithms
-  - Comprehensive source comparison
-  - Detailed similarity reports with highlighted matches
-  - Support for multiple file formats (PDF, Word, Text)
-- **AI Content Detection**
-  - Cutting-edge AI-generated text identification
-  - Detailed analysis reports with confidence scores
-  - Explanation of AI detection markers
-  - Integration with leading AI detection APIs
+- Advanced content matching with detailed similarity reports
+- AI-generated text identification with confidence scoring
+- Support for multiple document formats
+- Real-time scanning and analysis
 
 ### ✍️ Proofreading & Editing
 
-- **Professional Proofreading**
-
-  - Grammar and spelling error detection
-  - Style and tone consistency checking
-  - Academic writing standards compliance
-  - Citation format verification (APA, MLA, Chicago)
-
-- **Advanced Editing Tools**
-  - Real-time editing suggestions
-  - Document structure analysis
-  - Language enhancement recommendations
-  - Academic vocabulary improvement
+- Grammar, spelling, and style checking
+- Academic writing standards compliance
+- Citation format verification
+- Document structure optimization
 
 ### 📚 Assignment Aid
 
-- **Comprehensive Assignment Support**
+- Research and writing assistance
+- Citation management
+- Topic analysis and outlining
+- Quality assurance checks
 
-  - Structured writing assistance
-  - Research methodology guidance
-  - Citation and reference management
-  - Topic analysis and outline creation
+### 🎓 Additional Features
 
-- **Quality Assurance**
-  - Originality verification
-  - Academic standards compliance
-  - Format and structure validation
-  - Deadline management tools
-
-### 🎓 Additional Academic Tools
-
-- **Live Tutoring**
-
-  - Real-time expert assistance
-  - Subject-specific guidance
-  - Interactive learning sessions
-  - Personalized academic support
-
-- **Document Management**
-  - Secure file storage and organization
-  - Version control and history tracking
-  - Multi-format file support
-  - Easy sharing and collaboration
-
-### 🛠️ Technical Features
-
-- **Multi-Format Support**
-
-  - PDF processing and analysis
-  - Microsoft Office document handling
-  - Image-to-text conversion (OCR)
-  - HTML content processing
-
-- **Security & Privacy**
-  - End-to-end encryption
-  - Secure file storage
-  - User data protection
-  - Privacy-focused design
+- Live tutoring with expert assistance
+- Secure document management
+- Version control and tracking
+- Multi-format file support
+- Real-time collaboration tools
 
 ## Installation
 
